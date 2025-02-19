@@ -6,7 +6,7 @@ const Counter: React.FC = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div  style={{ background: `rgba(0,0,255,${count * 0.1})`, padding: "20px" }}>
+    <div style={{ background: `rgba(0,0,255,${count * 0.1})`, padding: "20px" }}>
       <Typography variant="h4">Counter: {count}</Typography>
       <Button variant="contained" color="primary" onClick={() => setCount(count + 1)} style={{ margin: "5px" }}>
         Increment
@@ -19,7 +19,7 @@ const Counter: React.FC = () => {
       </Button>
       
       <Link to="/" style={{ textDecoration: "none" }}>
-        <Button variant="contained" color="secondary" style={{ marginTop: "2px", marginLeft: "10px" }}>
+        <Button variant="contained" color="secondary" style={{ marginTop: "20px" }}>
           Back to Dashboard
         </Button>
       </Link>
